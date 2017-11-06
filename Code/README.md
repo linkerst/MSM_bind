@@ -107,25 +107,7 @@ Other possibilities are 'contacts' (shortest distance between the ligand and pro
 clustering_class=MSM_bind.Cluster_data(traj_list, input_pdb=input_pdb1, lagtime=lagtime1, cluster_method='uniform_time', n_clusters=n_clusters1, coordinates='heteroatom', visual=True)
 clustering_class.get_coordinates()
 clustering_dict=clustering_class.clustering()
-```
 
-    Widget Javascript not detected.  It may not be installed or enabled properly.
-
-
-
-
-    Widget Javascript not detected.  It may not be installed or enabled properly.
-
-
-
-
-    Widget Javascript not detected.  It may not be installed or enabled properly.
-
-
-
-
-    /home/tb/stlinker/conda-envs/env_steph/lib/python2.7/site-packages/matplotlib/cbook.py:136: MatplotlibDeprecationWarning: The spectral and spectral_r colormap was deprecated in version 2.0. Use nipy_spectral and nipy_spectral_r instead.
-      warnings.warn(message, mplDeprecation, stacklevel=1)
 
 
 
