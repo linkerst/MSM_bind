@@ -126,17 +126,6 @@ sorted_clusters.remove_small_clusters()
 lesscluster=sorted_clusters.assign_bound_unbound()
 ```
 
-    Widget Javascript not detected.  It may not be installed or enabled properly.
-
-
-
-
-    Widget Javascript not detected.  It may not be installed or enabled properly.
-
-
-
-
-    Widget Javascript not detected.  It may not be installed or enabled properly.
 
 
 
@@ -159,20 +148,7 @@ if compare_results:
     Testing_mod.rmsd_plot(m, 'prob')
 ```
 
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_1.xtc
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_1.pdb
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_2.xtc
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_2.pdb
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_3.xtc
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_3.pdb
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_4.xtc
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_4.pdb
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_5.xtc
-    06-11-17 15:51:41 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_5.pdb
 
-
-    /home/tb/stlinker/conda-envs/env_steph/lib/python2.7/site-packages/matplotlib/axes/_axes.py:545: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
-      warnings.warn("No labelled objects found. "
 
 
 
@@ -274,65 +250,6 @@ kinetic_dtraj=kinetic_lumping.lump_states()
 ```
 
     [[14, 15, 27, 28, 39, 40, 41, 46], [2, 3, 4, 10, 11, 12, 16, 17, 24, 25, 26, 34, 35, 47, 48, 52, 53, 57, 58, 61, 66, 67, 71, 72, 75, 79, 81, 82, 88, 89, 94, 97, 98], [0, 1, 18, 19, 20, 37, 38, 51, 54, 55, 56, 59, 73, 74, 76, 77, 86, 87]]
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_14.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_15.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_27.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_28.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_39.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_40.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_41.pdb
-    06-11-17 15:52:00 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_46.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_2.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_3.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_4.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_10.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_11.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_12.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_16.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_17.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_24.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_25.pdb
-    06-11-17 15:52:02 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_26.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_34.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_35.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_47.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_48.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_52.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_53.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_57.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_58.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_61.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_66.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_67.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_71.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_72.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_75.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_79.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_81.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_82.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_88.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_89.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_94.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_97.pdb
-    06-11-17 15:52:03 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_98.pdb
-    06-11-17 15:52:33 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_0.pdb
-    06-11-17 15:52:33 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_1.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_18.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_19.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_20.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_37.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_38.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_51.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_54.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_55.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_56.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_59.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_73.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_74.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_76.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_77.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_86.pdb
-    06-11-17 15:52:34 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/kinetic_clustering_centroid_87.pdb
     [[27, 39, 41], [14, 15, 28, 40, 46], [2, 3, 4, 10, 11, 12, 16, 17, 24, 25, 26, 34, 35, 47, 53, 58, 66, 67, 71, 72, 79, 81, 82, 88, 89, 94, 97, 98], [0, 1, 18, 19, 20, 37, 38, 51, 54, 55, 56, 59, 73, 74, 76, 77, 86, 87]]
 
 
@@ -353,17 +270,6 @@ if compare_results:
     Testing_mod_kin.compare_to_reference(out_data=out_data1, reference=reference1)
     Testing_mod_kin.rmsd_plot(m_kin, 'prob')
 ```
-
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_1.xtc
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_1.pdb
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_2.xtc
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_2.pdb
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_3.xtc
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_3.pdb
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_4.xtc
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_4.pdb
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_msm_most_rank_5.xtc
-    06-11-17 15:52:44 pyemma.coordinates.api INFO     Created file /home/tb/stlinker/tutorial/out_data/simple_MSM_centroid_rank_5.pdb
 
 
 
