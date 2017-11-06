@@ -39,7 +39,7 @@ import MSM_bind
 %matplotlib inline
 ```
 
-    /home/tb/stlinker/conda-envs/env_steph/lib/python2.7/site-packages/pyemma/__init__.py:91: UserWarning: You are not using the latest release of PyEMMA. Latest is 2.4, you have 2.3.2.
+    /home/lib/python2.7/site-packages/pyemma/__init__.py:91: UserWarning: You are not using the latest release of PyEMMA. Latest is 2.4, you have 2.3.2.
       .format(latest=latest, current=current), category=UserWarning)
 
 
@@ -51,17 +51,17 @@ The global variables define where our simulation data is stored (input_xtc1, inp
 fragment='5cq8'
 protein='bromo'
 #folder wehere raw .xtc files are. Only write out the protein and fragment coordinates
-input_xtc1=['/home/tb/stlinker/tutorial/example_trajs' ]
+input_xtc1=['/home/tutorial/example_trajs' ]
 #path where to find the structure (protein and fragment)
-input_pdb1='/home/tb/stlinker/tutorial/example_trajs/prot_mol.pdb'
+input_pdb1='/home/tutorial/example_trajs/prot_mol.pdb'
 # during the program multiple files will be generated and afterward deleted. They are saved in this folder
-out_data1='/home/tb/stlinker/tutorial/out_data' 
+out_data1='/home/tutorial/out_data' 
 
 # set to True if you want to compare the results to your X-ray reference 
 compare_results=True
 #reference path if you want to check to model quality
 if compare_results:
-    reference1='/home/tb/stlinker/tutorial/example_trajs/prot_mol.pdb'
+    reference1='/home/tutorial/example_trajs/prot_mol.pdb'
 ```
 
 Next you have to define the Gromacs version you are using. Lagtime and the number of clusters are important parameters for the Markov State Model. A lagtime of 50 ns and 600 clusters gave good results for most protein/fragment combinations. However, feel free to play around with these values.   
